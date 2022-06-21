@@ -1,0 +1,16 @@
+# client , server folder 
+# client - npx create-react-app <name> 
+
+# server - index.js - npm init - npm i body-parser express mongoose nodemon cors
+
+# client - npm i axios redux redux-thunk
+# make index.js file - App.js file - npm start
+
+# server - making cluster on mongodb - connecting using CONNECTION_URL
+# joining application using mongoose 
+
+creating folder routes , models , controllers 
+routes - assigning every route its location in controllers 
+models -schema for database
+
+server - making post controllers for get , post 
