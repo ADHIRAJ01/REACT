@@ -1,0 +1,19 @@
+
+Link{
+  padding: 3px;
+  margin: 5px;
+}
+nav{
+  padding:5px;
+  margin: 5px;
+}
+a{
+  padding: 5px;
+  margin: 5px;
+}
+a:hover{
+  background-color: pink;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}

@@ -1,0 +1,36 @@
+INDEX.js -> giving routing 
+    1.  import { BrowserRouter , Link } from 'react-router-dom';        -for routing 
+
+    2.  IMOPRT AND Adding -
+        <BrowserRouter>
+            <Routes>
+                  <Route path='/' element={<App />} /> 
+                  <Route path='/views' element={<views />} /> 
+                  <Route path='/contact' element={<invoice />} />                  
+            </Routes>
+      </BrowserRouter>,
+
+APP.js -> INSIDE NAVIGATION USED LINK 
+    3.  import inside navigation we pass link then from router it is getting redirected 
+
+    5     ADDING OUTLET TO RENDER SUBPATH APPLICATION - BELOW THE MAIN APPLICATION OR AT PLACE YOU WANT TO RENDER
+
+
+
+
+
+COMPONENTS=====
+        building components that will be needed inside the page 
+
+
+
+ROUTES=== 
+    building to make easy backend api rendering
+
+    4. making functions to render which is being called from index.js file 
+
+
+6. CREATED data.js file to store data
+
+
+PREFERRED - index(routing) , App(linking) , pages(whole page) , components(component to be passsed to pages)
