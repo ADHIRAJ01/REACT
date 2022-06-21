@@ -1,0 +1,228 @@
+#NotemTDiv {
+    width: 400px;
+    margin-top: 3%;
+    height: 45vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+.Nnote {
+    height: 36vh;
+    overflow-y: scroll;
+}
+
+.Nnote::-webkit-scrollbar {
+    display: none;
+}
+
+.NoteTDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+    background-image: url("./../../../Req img/book.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.NMapDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: grey;
+    word-wrap: break-word;
+}
+
+.TitleDiv {
+    background-color: rgb(255, 229, 85);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.modalMDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+}
+
+.popDiv {
+    background-color: white;
+    padding: 3% 7%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    z-index: 5;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inpTag {
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2%;
+    width: 400px;
+}
+
+#TextTag {
+    resize: none;
+    outline: none;
+    width: 100%;
+    padding: 2%;
+    width: 400px;
+}
+
+.addIcons {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.addIcons svg {
+    color: aliceblue;
+}
+
+.DivBtn {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#BtnClose {
+    border-style: solid;
+    border-width: 1px;
+    padding: 2% 3%;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#AddBtn {
+    border-style: solid;
+    border-width: 1px;
+    padding: 2% 5%;
+    background-color: rgb(65, 65, 255);
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.NMapDiv:hover>.iconsHover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.iconsHover {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -7%;
+    margin-left: 35%;
+    display: flex;
+    width: 30%;
+    background-color: white;
+    backdrop-filter: opacity(0);
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.iconsHover svg {
+    margin-right: 20px;
+}
+
+.deleteImg {
+    width: 50px;
+}
+
+.iconEdit {
+    width: 50px;
+}
+
+.idP {
+    display: none;
+}
+
+#displayEditNone {
+    display: none;
+}
+
+#displayEdit {
+    display: block;
+}
+
+.NnoteP {
+    color: gold;
+    text-shadow: 2px 2px 5px rgb(85, 85, 85);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.NaddIcon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.NfomDelete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title,
+#date {
+    color: white;
+    background-color: transparent;
+    border-style: none;
+}
+
+#title {
+    font-size: 1.2rem;
+}
+
+#date {
+    width: 45%;
+    margin-right: 5px;
+    text-align: right;
+}
+
+#des {
+    margin-top: 8px;
+    resize: none;
+    outline: none;
+    border-style: none;
+    width: 100%;
+    height: 50px;
+}
+
+#title {
+    outline: none;
+}

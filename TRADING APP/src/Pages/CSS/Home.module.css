@@ -1,0 +1,17 @@
+.Hmdiv {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Tablemdiv {
+    background-color: red;
+    width: 420px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

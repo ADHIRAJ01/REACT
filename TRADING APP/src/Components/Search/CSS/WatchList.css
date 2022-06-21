@@ -1,0 +1,66 @@
+.WatchmDiv {
+    width: 400px;
+    height: 45vh;
+    overflow-y: scroll;
+    margin: 5% 0% 2% 0%;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    background-image: linear-gradient(white 50%, gold);
+}
+
+.WatchmDiv::-webkit-scrollbar {
+    display: none;
+}
+
+#pTagVal {
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    background-color: white;
+    padding: 1%;
+    margin-bottom: 1.3%;
+}
+
+#pTagVal:hover {
+    border-radius: 5px 0px;
+    border-color: white;
+    box-shadow: inset -10.5em 0 0 0 rgb(255, 228, 77), inset 10.5em 0 0 0 white;
+    transition: all 0.3s;
+}
+
+#pTagVal:hover>.WiconsDiv {
+    opacity: 1;
+    visibility: visible;
+    background-color: transparent;
+}
+
+.WiconsDiv {
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    width: 40%;
+    margin-top: -30px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 1%;
+    backdrop-filter: opacity(0);
+    transition: all 0.3s;
+}
+
+.inpValue {
+    text-transform: capitalize;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    font-size: 1.2rem;
+    width: 100%;
+    transition: all 0.3s;
+}

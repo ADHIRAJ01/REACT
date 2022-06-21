@@ -1,0 +1,60 @@
+.NmDiv {
+    width: 100%;
+    background-color: gold;
+    color: white;
+    text-align: center;
+    margin-bottom: -10px;
+    box-shadow: 5px 5px 5px rgb(231, 231, 231);
+    position: relative;
+}
+
+.mH1 {
+    transition: all 0.3s;
+}
+
+#ArrowBackIosIcon,
+#ArrowForwardIosIcon {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+#ArrowBackIosIcon {
+    margin-right: -50px;
+}
+
+#ArrowForwardIosIcon {
+    margin-left: -50px;
+}
+
+.mcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.mcontent:hover>#ArrowBackIosIcon,
+.mcontent:hover>#ArrowForwardIosIcon {
+    opacity: 1;
+    visibility: visible;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mcontent:hover>.mH1 {
+    animation: bounce 0.4s linear;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-20%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+#TmDiv {
+    width: 420px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid rgb(107, 107, 107);
+}
+
+.table {
+    width: 100%;
+}
+
+.CTmDiv {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+
+#tablename {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.topRow {
+    background-color: rgb(255, 236, 125);
+}
+
+.greyRow {
+    background-color: rgb(231, 231, 231);
+}
+
+tr {
+    transition: all 0.3s;
+}
+
+th {
+    padding: 3px 0px;
+}
+
+tr:hover {
+    background-color: rgb(255, 236, 125);
+}

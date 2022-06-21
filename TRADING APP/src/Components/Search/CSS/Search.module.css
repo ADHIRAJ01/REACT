@@ -1,0 +1,82 @@
+.sMdiv {
+    width: 400px;
+    height: 45vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+    background-image: linear-gradient(white 50%, gold);
+}
+
+.sMdiv::-webkit-scrollbar,
+.scrollDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollDiv {
+    height: 38vh;
+    overflow-y: scroll;
+}
+
+#searchInp {
+    background-image: url("./../../../Req img/searchBg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+#searchInp:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gold;
+}
+
+#searchInp:focus {
+    transition: all 3s;
+    box-shadow: 2px 2px 50px gold;
+}
+
+#searchInp,
+.formImp {
+    outline: none;
+    width: 94%;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+.hoverIcons {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -35px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.formImp {
+    text-transform: capitalize;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    transition: all 0.5s;
+    margin-bottom: 10px;
+}
+
+.formImp:hover {
+    border-radius: 5px 0px;
+    border-color: white;
+    color: white;
+    box-shadow: inset -10.5em 0 0 0 rgb(255, 228, 77), inset 10.5em 0 0 0 rgb(255, 228, 77);
+    transition: all 0.3s;
+}
+
+.form:hover>.hoverIcons {
+    opacity: 1;
+    visibility: visible;
+}

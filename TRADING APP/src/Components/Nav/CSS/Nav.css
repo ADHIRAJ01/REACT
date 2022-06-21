@@ -1,0 +1,46 @@
+#active {
+    z-index: 100;
+}
+
+#NavBackDrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.h1WelPar {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.h1Wel {
+    transform: translateY(100%);
+    font-size: 5rem;
+}
+
+.h1WelSlide {
+    color: rgb(255, 229, 85);
+    transform: translateY(100%);
+    font-size: 5rem;
+}
+
+#slider {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 229, 85);
+    transform: translatY(10%);
+}

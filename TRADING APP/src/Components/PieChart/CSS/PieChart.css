@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+.PieChartmDiv {
+    transition: all 0.3s;
+    /* z-index: 2; */
+}
+
+.pie-chart {
+    background-color: transparent;
+    background: radial-gradient(circle closest-side, transparent 60%, white 0), conic-gradient( from 180deg, #ee5253 0, #ee5253 35%, #277921 0, #277921 60%, #f368e0 0, #f368e0 75%, #0abde3 0, #0abde3 100%);
+    min-width: 300px;
+    min-height: 200px;
+    border-radius: 10px;
+    /* z-index: -1; */
+}
+
+.PieChartmDiv:hover {
+    /* min-width: 100%; */
+    /* padding: 3%; */
+    background-color: white;
+    /* box-shadow: 5px 5px 20px rgb(192, 192, 192); */
+    border-radius: 10px;
+    /* transform: scale(1.5) translateY(20%); */
+    transition: all 0.3s;
+}
+
+#item1,
+#item2,
+#item3,
+#item4 {
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#item1 {
+    background: #ee5253;
+}
+
+#item2 {
+    background: #277921;
+}
+
+#item3 {
+    background: #f368e0;
+}
+
+#item4 {
+    background: #0abde3;
+}
+
+#item5 {
+    background: #10ac84;
+}
+
+.PieChartmDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.chatKey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .chatKey p {
+} */
