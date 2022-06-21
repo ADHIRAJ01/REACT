@@ -1,0 +1,6 @@
+.Postcss{
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 150px;
+}

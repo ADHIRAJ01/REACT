@@ -1,0 +1,16 @@
+.arg{
+    display: flex;
+    background-color:"green";
+}
+
+.Post {
+    width: 70%;
+}
+.Form {
+    width: 30%;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+}

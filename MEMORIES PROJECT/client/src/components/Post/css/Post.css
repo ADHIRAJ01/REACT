@@ -1,0 +1,12 @@
+.Postcss{
+    height: 150px;
+    overflow: scroll;
+    display: block;
+    opacity: 1;
+    animation:backwards;
+    
+}
+.card {
+    width: 500px;
+    background-color: pink
+}
